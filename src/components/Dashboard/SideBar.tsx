@@ -10,13 +10,13 @@ const SideBar = () => {
     return (<>
         {/* <button className="sidebar_burger_button" onClick={handleClick}>burger</button> */}
         {showSidebar && (
-                <section className="main_wrapper" aria-label="Sidebar">
+                <div className="main_wrapper" aria-label="Sidebar">
                     <ul className="list_container">
                         <li className="list_item"><Link style={{ textDecoration: 'none' }} to="/">Home</Link></li>
                         <li className="list_item"><Link style={{ textDecoration: 'none' }} to="/analytics">Analytics</Link></li>
                         <li className="list_item"><Link style={{ textDecoration: 'none' }} to="/settings">Settings</Link></li>
                     </ul>
-                </section>
+                </div>
             )}
         </>
     )

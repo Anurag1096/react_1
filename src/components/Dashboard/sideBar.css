@@ -1,29 +1,34 @@
 .main_wrapper{
-    max-width:150px;
-    height:80vh;
-    padding:2px;
-
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .list_container{
-    list-style-type: none;
+    list-style: none;
     width:100%;
     height:100%;
     margin:0;
-    padding:4px;
-    border:2px solid red;
-    border-radius:10px
+    padding:0.1px;
+  
 }
 .list_item{
     font-size:14px;
     display:flex;
+    padding:2px 5px 2px 5px;
     border:0.1px solid #f0f0f0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius:8px;
+    border-radius:2px;
     justify-content:center;
     align-items:center;
-   padding:2px;
-   margin:6px;
+  
     
 }
 .list_item:hover{
@@ -34,15 +39,3 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     
 }
-/* @media screen and (max-width: 768px) {
-    .main_wrapper{
-      display:none;
-    
-    }
-    .sidebar_burger_button{
-        display:block;
-    }
-  } */
-
-
-

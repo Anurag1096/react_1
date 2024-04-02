@@ -1,0 +1,17 @@
+.dashboard_wrapper {
+    display: flex;
+    
+  }
+  
+.main_content{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left: 165px; /* Same as the width of the sidenav */
+  margin-right:10px;
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  max-width:1300px;
+  flex:1;
+  border-radius:8px;
+  background-color:grey;
+}
