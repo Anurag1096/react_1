@@ -1,0 +1,14 @@
+.btn_hamburg{
+    cursor:pointer;
+    color:red;
+    padding:4px;
+    background-color:#D3D3D3;
+    border-radius:8px;
+    transition:color ,padding 0.3s ease-out;
+}
+
+.btn_hamburg:hover{
+    color:green;
+    padding:6px;
+    transition:color,padding 0.3s ease;
+}

@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
+import "./Header.css"
+type Props={
+   handleSidebar():void,
+}
+// Header 
 
-
-// Header component
-function HeaderNav() {
+function HeaderNav(props:Props) {
+  const{handleSidebar}=props;
+  // The handle click function invokes handleSidebar and returns void.
+  const handleClick=():void=>{
+    handleSidebar();
+  }
   return (
     <header style={headerStyle}>
-      <div style={logoStyle}></div>
+      <div style={logoStyle}>
+        <button className='btn_hamburg' onClick={handleClick}>Ham</button>
+      </div>
       <nav style={navStyle}>
         <ul style={ulStyle}>
           <li style={liStyle}><a href="#">Home</a></li>

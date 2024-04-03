@@ -5,12 +5,27 @@
     z-index: 1;
     top: 0;
     left: 0;
+    transition:left 0.3s ease-out;
     background-color: #111;
-    padding-top: 20px;
-    padding-left:20px;
-    padding-right:20px;
+    padding:20px 20px 20px 20px;
 }
 
+
+
+.main_wrapper2{
+    height: 100%;
+    width: 70vw;
+    position :fixed;
+    z-index:2;
+    top:0;
+    left:0;
+    transition:left 0.3s ease-in;
+    background-color: #111;
+    padding:20px 20px 20px 20px;
+}
+.btn_close{
+    cursor:pointer;
+}
 .list_container{
     list-style: none;
     width:100%;
@@ -38,4 +53,17 @@
     border-color: #ccc; /* Change border color on hover */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     
+}
+
+@media screen and (max-width:768px){
+    .main_wrapper{
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -160px;
+        transition: left 0.3s ease;
+       
+    }
 }
