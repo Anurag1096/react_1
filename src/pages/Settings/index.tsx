@@ -1,10 +1,22 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 const Settings = () => {
-  return (
+
+useEffect(()=>{
+
+
+
+},[])
+  return (<>
     <div>Settings
-      this is the setting section
     </div>
+    <div>
+
+<button className="btn" >First button</button>
+      <button id="xbtn" className="btn" >First button</button>
+    
+    </div>
+    </>
   )
 }
 

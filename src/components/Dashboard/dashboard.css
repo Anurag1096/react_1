@@ -11,9 +11,16 @@
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   max-width:1300px;
+  max-height:88vh;
   flex:1;
   border-radius:8px;
   background-color:grey;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+.main_content::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 .glass_background{
   width:100vw;
@@ -21,8 +28,9 @@
   position:fixed;
   top:0;
   z-index:0;
-  background-color:#D3D3D3;
-  opacity:0.8;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); /* This is the key property for the glass effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition:background-color 0.3s ease-in
 }
 @media screen and (max-width:768px){

@@ -5,8 +5,8 @@ import { Dashboard } from './components/Dashboard/dashboard';
 const App=()=>{
     return(
       // The dashboard is visivle on /
-      
-      <Dashboard/>
+       true?
+      <Dashboard/>:"app"
     )
 }
 
