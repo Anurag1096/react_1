@@ -101,15 +101,27 @@ setFormData(prevFormData => ({
       <div>Reset to default</div> 
       </div>
       <div className="input_main">
-        <label htmlFor='allowNewMembers'>My label</label>
+        <div>
         <input type='checkbox'  name='allowNewMembers' checked={formData.allowNewMembers} onChange={handleFormData}/>
+
+        </div>
+        <div>
+
         <input type='checkbox'  name='allowChangeNames' checked={formData.allowChangeNames} onChange={handleFormData}/>
+        </div>
+        <div>
+
         <input type='checkbox'  name='deployRequest' checked={formData.deployRequest} onChange={handleFormData}/>
+        </div>
+        <div></div>
         <input type='checkbox'  name='restrictBranch' checked={formData.restrictBranch} onChange={handleFormData}/>
         <input type='checkbox'  name='allowConsoleAccess' checked={formData.allowConsoleAccess} onChange={handleFormData}/>
         <input type='checkbox'  name="autoCopyMigration"  checked={formData.autoCopyMigration} onChange={handleFormData}/>
+        <div>
         <input type="radio"  name="myRadio" value="cat" checked={formData.myRadio === "cat"} onChange={handleFormData}/>
         <input type="radio"  name="myRadio" value="bat" checked={formData.myRadio === "bat"} onChange={handleFormData}/>
+
+        </div>
       </div>
       <div>
  
