@@ -12,6 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "/dist"), // the bundle output path
     filename: "bundle.js", // the name of the bundle
+    pusblicPath:"/",
    
   },
   plugins: [
@@ -22,8 +23,8 @@ module.exports = {
   ],
   devServer: {
     port: 3030,
-    magicHtml: true,
-    contentBase: path.join(__dirname, '../'),
+
+   
     historyApiFallback: true, // you can change the port
   },
   module: {

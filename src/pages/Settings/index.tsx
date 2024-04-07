@@ -114,9 +114,18 @@ setFormData(prevFormData => ({
         <input type='checkbox'  name='deployRequest' checked={formData.deployRequest} onChange={handleFormData}/>
         </div>
         <div></div>
+        <div>
+
         <input type='checkbox'  name='restrictBranch' checked={formData.restrictBranch} onChange={handleFormData}/>
+        </div>
+        <div>
         <input type='checkbox'  name='allowConsoleAccess' checked={formData.allowConsoleAccess} onChange={handleFormData}/>
+
+        </div>
+        <div>
         <input type='checkbox'  name="autoCopyMigration"  checked={formData.autoCopyMigration} onChange={handleFormData}/>
+
+        </div>
         <div>
         <input type="radio"  name="myRadio" value="cat" checked={formData.myRadio === "cat"} onChange={handleFormData}/>
         <input type="radio"  name="myRadio" value="bat" checked={formData.myRadio === "bat"} onChange={handleFormData}/>
