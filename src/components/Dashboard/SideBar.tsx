@@ -19,7 +19,7 @@ const SideBar = (props:Props) => {
                         <li className="list_item"><Link style={{ textDecoration: 'none' }} to="/">Home</Link></li>
                         <li className="list_item"><Link style={{ textDecoration: 'none' }} to="/analytics">Analytics</Link></li>
                         <li className="list_item"><Link style={{ textDecoration: 'none' }} to="/settings">Settings</Link></li>
-                        <li className="list_item"><Link style={{textDecoration:"none"}} to = '/chat'>Chat</Link></li>
+                        <li className="list_item"><Link style={{textDecoration:"none"}} to ='/chat'>Chat</Link></li>
                     </ul>
                 </div>
         </>

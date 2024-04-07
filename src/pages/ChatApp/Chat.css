@@ -1,0 +1,64 @@
+/* Main wrapper for the chat interface */
+.main_chat_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Chat list wrapper */
+.chat_list_wrapper {
+    width: 40%;
+    height: 100%;
+    background-color: #4CAF50; /* Green */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+.btn_show{
+    display:none;
+}
+/* Specific chat section */
+.specific_chat_section {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    background-color: #FFC0CB; /* Pink */
+    text-align: center;
+    transition: right 0.3s ease-out;
+}
+
+/* Small version of specific chat section */
+.specific_chat_section_small {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #FFC0CB; /* Pink */
+    text-align: center;
+    transition: right 0.3s ease-in;
+}
+
+/* Hide specific chat section initially */
+.specific_chat_remove {
+    right: -100%;
+    transition: right 0.3s ease-out;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .main_chat_wrapper {
+        display: block;
+    }
+    .btn_show{
+        display:inline-block;
+    }
+    .chat_list_wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    .specific_chat_section {
+        right: -100%;
+        transition: right 0.4s ease-out; /* Increased transition duration for smoother animation */
+    }
+}
