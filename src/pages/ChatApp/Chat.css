@@ -28,7 +28,7 @@
 
 /* Small version of specific chat section */
 .specific_chat_section_small {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0;

@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import "./Chat.css";
+import { ChatList } from './ChatList';
 export const ChatApp = () => {
     /*  The chat app design 
         This is divided into two parts 
@@ -7,6 +8,7 @@ export const ChatApp = () => {
         Part 2 the chat per person
     */
     const [showChat,setShowChat] = useState<boolean>(false) 
+    const [ data,setData] =useState<Array<object>>([])
         const handleClick=()=>{
             setShowChat(prevState=>!prevState)
         }
@@ -16,6 +18,7 @@ export const ChatApp = () => {
             <h1>Chat List</h1>
              <button className="btn_show" onClick={handleClick}>Click</button>
             {/* This contain the chat list component */}
+            <ChatList data={data}/>
         </div>
         <div className={showChat?'specific_chat_section_small':"specific_chat_section"}>
             <h1>Specific Chat Section</h1>
