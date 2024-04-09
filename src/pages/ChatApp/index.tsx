@@ -16,6 +16,9 @@ export const ChatApp = () => {
     <section className='main_chat_wrapper'>
         <div className='chat_list_wrapper'>
             <h1>Chat List</h1>
+
+
+            {/* addi */}
              <button className="btn_show" onClick={handleClick}>Click</button>
             {/* This contain the chat list component */}
             <ChatList data={data}/>
