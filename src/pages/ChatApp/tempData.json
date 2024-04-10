@@ -1,0 +1,72 @@
+[
+    {
+        "img": "profile1.jpg",
+        "name": "Alice",
+        "lastChat": "Hi there!",
+        "lastActive": "5m",
+        "status": "Online"
+    },
+    {
+        "img": "profile2.jpg",
+        "name": "Bob",
+        "lastChat": "Hey!",
+        "lastActive": "15m",
+        "status": "Online"
+    },
+    {
+        "img": "profile3.jpg",
+        "name": "Charlie",
+        "lastChat": "How's it going?",
+        "lastActive": "10m",
+        "status": "Offline"
+    },
+    {
+        "img": "profile4.jpg",
+        "name": "David",
+        "lastChat": "What's up?",
+        "lastActive": "20m",
+        "status": "Online"
+    },
+    {
+        "img": "profile5.jpg",
+        "name": "Eve",
+        "lastChat": "Nice weather today!",
+        "lastActive": "30m",
+        "status": "Offline"
+    },
+    {
+        "img": "profile6.jpg",
+        "name": "Frank",
+        "lastChat": "Did you watch the game?",
+        "lastActive": "40m",
+        "status": "Online"
+    },
+    {
+        "img": "profile7.jpg",
+        "name": "Grace",
+        "lastChat": "How was your weekend?",
+        "lastActive": "50m",
+        "status": "Online"
+    },
+    {
+        "img": "profile8.jpg",
+        "name": "Henry",
+        "lastChat": "Long time no see!",
+        "lastActive": "1h",
+        "status": "Offline"
+    },
+    {
+        "img": "profile9.jpg",
+        "name": "Isabel",
+        "lastChat": "Ready for the presentation?",
+        "lastActive": "2h",
+        "status": "Offline"
+    },
+    {
+        "img": "profile10.jpg",
+        "name": "Jack",
+        "lastChat": "Where are you?",
+        "lastActive": "3h",
+        "status": "Online"
+    }
+]
