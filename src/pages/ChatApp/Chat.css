@@ -9,6 +9,7 @@
 .chat_list_wrapper {
     width: 40%;
     height: 100%;
+    padding:10px;
     background-color: #4CAF50; /* Green */
     overflow-y: auto; /* Enable vertical scrolling if needed */
 }
@@ -44,6 +45,10 @@
     right: -100%;
     transition: right 0.3s ease-out;
 }
+
+
+
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {

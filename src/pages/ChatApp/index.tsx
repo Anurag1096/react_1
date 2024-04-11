@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import "./Chat.css";
 import { ChatList } from './ChatList';
 import dataList from "./tempData.json"
-import { ChatData } from './types.ts';
+import { ChatData } from './types';
 
 export const ChatApp = () => {
     /*  The chat app design 
@@ -29,7 +29,7 @@ export const ChatApp = () => {
             {/* addi */}
              <button className="btn_show" onClick={handleClick}>Click</button>
             {/* This contain the chat list component */}
-          {data && <ChatList data={data}/>}
+          {data && <ChatList data={data} chatClick={handleClick}/>}
         </div>
         <div className={showChat?'specific_chat_section_small':"specific_chat_section"}>
             <h1>Specific Chat Section</h1>

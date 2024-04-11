@@ -1,0 +1,19 @@
+.chat_wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:top;
+    border:0.5px solid red;
+    cursor:pointer;
+    padding:0.3rem 0;
+}
+.chat_img_container{
+    padding-right:1rem;
+    
+}
+.chat_img{
+    border-radius: 50%;
+}
+.chat_data{
+    flex:1;
+    
+}
