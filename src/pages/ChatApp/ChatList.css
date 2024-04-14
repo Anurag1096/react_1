@@ -5,6 +5,9 @@
     border:0.5px solid red;
     cursor:pointer;
     padding:0.3rem 0;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
 }
 .chat_img_container{
     padding-right:1rem;
