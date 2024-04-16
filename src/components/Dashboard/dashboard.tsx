@@ -7,6 +7,7 @@ import Settings from '../../pages/Settings';
 import "./dashboard.css"
 import HeaderNav from './Header';
 import { ChatApp } from '../../pages/ChatApp';
+import { DataList } from '../../pages/DataList';
 export const Dashboard = () => {
   const [openSidebar,setOpenSidebar]=useState<boolean>(false)
   // The function toggels the side bar for open and close commands
@@ -26,6 +27,7 @@ export const Dashboard = () => {
             <Route path="/analytics" element={<Analytics/>} />
             <Route path="/settings" element={<Settings/>} />
             <Route path="/chat" element={<ChatApp/>}/>
+            <Route path="/dataList" element={<DataList/>}/>
             {/* Add more routes as needed */}
           </Routes>
           </div>
