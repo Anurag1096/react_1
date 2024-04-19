@@ -20,7 +20,7 @@ export const CustomTable: React.FC<{ tableData: TableData[] }> = ({ tableData })
   
     return (
       <tr key={item.id}>
-        <td><input type='checkbox'  name='allowNewMembers' checked={data.includes(item.id)} onChange={(e)=>handleOnChange(e,item.id)} /></td>
+        <td><input type='checkbox'  name='tab' checked={data.includes(item.id)} onChange={(e)=>handleOnChange(e,item.id)} /></td>
         <td>{item.name}</td>
         <td>{item.age}</td>
         <td>{item.city}</td>
