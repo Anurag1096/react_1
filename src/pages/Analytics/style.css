@@ -1,0 +1,8 @@
+.active{
+    color:red;
+    cursor:pointer;
+}
+.passive{
+    color:green;
+    cursor:pointer;
+}
