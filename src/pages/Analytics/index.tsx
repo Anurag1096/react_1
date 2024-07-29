@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import "./style.css"
+import AutoComplete from '../../components/AutoComplete'
 function Analytics() {
  const [active,setActive]=useState(0)
   const data=[{
@@ -27,6 +28,7 @@ function Analytics() {
         <div  className={active == index?`active`:`passive`} onClick={()=>handleClick(index)}>{item.title}</div>
         <div>{item.description}</div>
         </div>
+        <AutoComplete data={["a","b"]}/>
         </>
       )
     })}

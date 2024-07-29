@@ -1,0 +1,10 @@
+.dropdown{
+    display:block;
+    transition:block 0.3s ease-in;
+    width:100%;
+    height:30px;
+    color:red;
+}
+.dropdown-hidden{
+    display:none;
+}
