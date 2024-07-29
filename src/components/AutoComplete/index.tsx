@@ -20,9 +20,10 @@ function AutoComplete(props:Props) {
         setDropActive(false)
       }
     },[val])
-
+    
     const handleItemClick=(item:string)=>{
         setValue(item)
+        
         setDropActive(false)
     }
     const renderItems= props.data.map((item,)=>{
@@ -39,9 +40,6 @@ function AutoComplete(props:Props) {
         //onBlur={handleBlur} 
         />
         <div className={dropActive?'dropdown':'dropdown-hidden'}>{renderItems}
-
-
-
         </div>
     </div>
   )

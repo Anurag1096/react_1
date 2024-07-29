@@ -28,10 +28,10 @@ function Analytics() {
         <div  className={active == index?`active`:`passive`} onClick={()=>handleClick(index)}>{item.title}</div>
         <div>{item.description}</div>
         </div>
-        <AutoComplete data={["a","b"]}/>
         </>
       )
     })}
+    <AutoComplete data={["a","b"]}/>
   </>
   )
 }
