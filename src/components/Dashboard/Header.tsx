@@ -31,7 +31,7 @@ function HeaderNav(props:Props) {
 const headerStyle:any = {
   position:'sticky',
   top:"0",
-  backgroundColor: '#333',
+  backgroundColor: '#F0F5F9 ',
   maxWidth:"1500px",
   color: '#fff',
   padding: '10px',
