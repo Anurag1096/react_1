@@ -14,11 +14,8 @@ function AutoComplete(props:Props) {
     //     setDropActive(false)
     // }
     useEffect(()=>{
-      if(val.length){
-        setDropActive(true)
-      }else{
-        setDropActive(false)
-      }
+      let newVal=!!val?.length
+      setDropActive(newVal)
     },[val])
     
     const handleItemClick=(item:string)=>{
