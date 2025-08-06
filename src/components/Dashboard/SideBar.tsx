@@ -5,8 +5,7 @@ type Props={
     openSidebar:boolean,
     setCloseSidebar:(a:boolean)=>void,
 }
-const SideBar = (props:Props) => {
-    const{openSidebar,setCloseSidebar}=props;
+const SideBar = ({openSidebar,setCloseSidebar}:Props) => {
     
     const handleClick=()=>{
            setCloseSidebar(!openSidebar)
