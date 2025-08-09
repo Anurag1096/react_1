@@ -16,6 +16,11 @@ test("Render a sideBar with with bar options",()=>{
     );
  
      expect(screen.getByText(/home/i)).toBeInTheDocument();
+     expect(screen.getByText(/analytics/i)).toBeInTheDocument();
+     expect(screen.getByText(/settings/i)).toBeInTheDocument();
+     expect(screen.getByText(/chat/i)).toBeInTheDocument();
+     expect(screen.getByText(/dataList/i)).toBeInTheDocument();
+
 })
 
 
