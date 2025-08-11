@@ -6,6 +6,13 @@ import SideBar from './SideBar'
 
 
 
+describe("some thing",()=>{
+    it('test something',()=>{
+        
+    })
+})
+
+
 test("Render a sideBar with with bar options", () => {
     const dClose = vi.fn()
 

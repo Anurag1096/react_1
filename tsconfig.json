@@ -4,7 +4,7 @@
       "noImplicitAny": true,
       "module": "es6",
       "target": "es5",
-      "types":["jest","vitest/globals","@testing-library/jest-dom"],
+      "types":["vitest/globals","@testing-library/jest-dom"],
       "jsx": "react",
       "allowJs": true,
       "allowSyntheticDefaultImports": true,
